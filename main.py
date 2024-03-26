@@ -93,9 +93,5 @@ async def on_message(message):
 
             # 오류 메시지 전송
             await message.channel.send("오류가 발생했습니다. 관리자에게 문의해주세요.")
-
-    else:
-        
-        return
     
 client.run(TOKEN)
